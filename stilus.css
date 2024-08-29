@@ -6,7 +6,6 @@
     margin: auto;
     margin: 10px;
     padding: 10px;
-
     background-color: lightblue;
     border-radius: 10px;
     display: grid;
@@ -51,6 +50,7 @@ aside{
 .fout{
     background-color: black;
     border-radius: 10px;
+    padding: 5px;
 }
 
 .fahazak{
