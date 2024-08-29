@@ -15,11 +15,18 @@
                            "a";
   }
   
-div {
+.haz div {
     padding: 10px;
     border-radius: 10px;
     border: 1px solid white;
 }
+
+.fahazak div {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
 
 article { 
     padding:10px;
