@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+  
+.haz {
+    margin: auto;
+    margin: 10px;
+    padding: 10px;
+
+    background-color: lightblue;
+    border-radius: 10px;
+    display: grid;
+    gap:20px;
+      grid-template-areas: "n"
+                           "a";
+  }
+  
+div {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+article { 
+    padding:10px;
+    margin:10px;
+    display:grid; 
+    grid-gap: 10px; 
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(2,1fr);
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+aside{
+    margin:10px;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fout{
+    background-color: black;
+}
+
+.fahaz{
+    display:grid; 
+    grid-gap: 10px; 
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.Fszt8{
+    background-color: rgb(188, 105, 105);
+}
+.Fszt7{
+    background-color: rgb(184, 68, 68);
+}
+.Fszt6{
+    background-color: rgb(185, 48, 48);
+}
+.Fszt5{
+    background-color: rgb(182, 28, 28);
+}
+.Fszt4{
+    background-color: rgb(107, 94, 176);
+}
+.Fszt3{
+    background-color: rgb(89, 70, 187);
+}
+.Fszt2{
+    background-color: rgb(61, 36, 185);
+}
+.Fszt1{
+    background-color: rgb(33, 0, 201);
+}
+
+.Em1{
+    background-color: rgb(167, 114, 167);
+}
+.Em2{
+    background-color: rgb(128, 70, 128);
+}
+.Em3{
+    background-color: rgb(132, 35, 132);
+}
+.Em4{
+    background-color: rgb(131, 0, 131);
+}
+
+.Em5{
+    background-color: rgb(116, 167, 114);
+}
+.Em6{
+    background-color: rgb(92, 166, 89);
+}
+.Em7{
+    background-color: rgb(49, 161, 45);;
+}
+.Em8{
+    background-color: rgb(5, 163, 0);;
+}
+
+.F1{
+    background-color: rgb(177, 156, 0);
+}
+.F2{
+    background-color: rgb(181, 168, 67);
+}
+.F3{
+    background-color: rgb(144, 127, 0);
+}
+.F4{
+    background-color: rgb(89, 79, 0);
+}
