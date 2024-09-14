@@ -30,12 +30,17 @@ p{
     padding: 10px;
     border-radius: 10px;
     border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .fahazak div {
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
     border: 1px solid white;
+
 }
 
 article { 
@@ -69,6 +74,7 @@ aside{
     grid-gap: 10px; 
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
+    
 }
 
 .Fszt8{
