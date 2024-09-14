@@ -1,17 +1,29 @@
 *{
     box-sizing: border-box;
 }
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    text-align: center;
+    padding: 5px;
+    color:rgb(40, 181, 42);
+}
   
+p{
+    text-align: center;
+    background-color: bisque;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .foglalo-wrapper {
     margin: auto;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     background-color: lightblue;
     border-radius: 10px;
     display: grid;
     gap:20px;
-      grid-template-areas: "n"
-                           "a";
   }
   
 .haz div {
@@ -25,7 +37,6 @@
     border-radius: 10px;
     border: 1px solid white;
 }
-
 
 article { 
     padding:10px;
@@ -123,3 +134,42 @@ aside{
 .F4{
     background-color: rgb(89, 79, 0);
 }
+
+.kezdokep img{
+    width: 100%;
+}
+
+.kezdokep{
+    padding: 5px;
+    background-color: rgb(249, 203, 142);
+    border-radius: 5px;
+}
+
+.elsonezet{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding:15px;
+}
+
+.navok{
+    background-color: rgb(249, 203, 142);
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+nav{
+    margin: 5px;
+    background-color: white;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.keret{
+    padding: 5px;
+    background-color: rgb(249, 203, 142);
+    border-radius: 5px;
+}
+
