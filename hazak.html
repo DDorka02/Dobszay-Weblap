@@ -7,11 +7,16 @@
     <meta name="author" content="John Doe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stilus.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Dobszay család</title>
   </head>
   <body>
     <main class="container-fluid">
-      <header><h1>Házak beosztása</h1></header>
+      <header class="text-danger"><h1>Házak beosztása</h1></header>
       <div class="elsonezet">
         <div class="navok flex-container">
           <nav>
@@ -30,7 +35,6 @@
             >
               <option value="#">Káptalan</option>
               <option value="hazak.html">Házak</option>
-              <option value="index.html">Vissza</option>
             </select>
           </nav>
           <nav>
@@ -39,8 +43,7 @@
               onchange="window.open(this.value,'_self');"
             >
               <option value="#">D család</option>
-              <option value="#">Adatok</option>
-              <option value="index.html">Vissza</option>
+              <option value="adatok.html">Adatok</option>
             </select>
           </nav>
         </div>
@@ -51,37 +54,39 @@
             </aside>
 
             <article class="fahazak">
-              <div class="F1">1. Faház</div>
-              <div class="F2">2. Faház</div>
-              <div class="F3">3. Faház</div>
-              <div class="F4">4. Faház</div>
+              <div class="f1">1. Faház</div>
+              <div class="f2">2. Faház</div>
+              <div class="f3">3. Faház</div>
+              <div class="f4">4. Faház</div>
             </article>
 
         <article class="haz">
-            <div class="Em1">Emelet 1</div>
-            <div class="Em2">Emelet 2</div>
-            <div class="Em3">Emelet 3</div>
-            <div class="Em4">Emelet 4</div>
-            <div class="Em5">Emelet 5</div>
-            <div class="Em6">Emelet 6</div>
-            <div class="Em7">Emelet 7</div>
-            <div class="Em8">Emelet 8</div>
-            <div class="Fszt8">Fszt 8.</div>
-            <div class="Fszt7">Fszt 7.</div>
-            <div class="Fszt6">Fszt 6.</div>
-            <div class="Fszt5">Fszt 5.</div>
-            <div class="Fszt4">Fszt 4.</div>
-            <div class="Fszt3">Fszt 3.</div>
-            <div class="Fszt2">Fszt 2.</div>
-            <div class="Fszt1">Fszt 1.</div>
+            <div class="em1">Emelet 1</div>
+            <div class="em2">Emelet 2</div>
+            <div class="em3">Emelet 3</div>
+            <div class="em4">Emelet 4</div>
+            <div class="em5">Emelet 5</div>
+            <div class="em6">Emelet 6</div>
+            <div class="em7">Emelet 7</div>
+            <div class="em8">Emelet 8</div>
+            <div class="fszt8">Fszt 8.</div>
+            <div class="fszt7">Fszt 7.</div>
+            <div class="fszt6">Fszt 6.</div>
+            <div class="fszt5">Fszt 5.</div>
+            <div class="fszt4">Fszt 4.</div>
+            <div class="fszt3">Fszt 3.</div>
+            <div class="fszt2">Fszt 2.</div>
+            <div class="fszt1">Fszt 1.</div>
         </article>
 
 
         <aside>
             <div class="fout">Szigeti József utca</div>
         </aside>
+      </div>
+      </div>
+      </div>
+      <footer><p>@Minden jog fenntartva!</p></footer>
       </main>
-
-    </div>
 </body>
 </html>

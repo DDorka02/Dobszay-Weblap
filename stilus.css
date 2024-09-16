@@ -3,17 +3,16 @@
 }
 
 h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 5px;
-    color:rgb(40, 181, 42);
 }
   
-p{
+footer p{
     text-align: center;
     background-color: bisque;
     padding: 15px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif
 }
 
 .foglalo-wrapper {
@@ -77,67 +76,67 @@ aside{
     
 }
 
-.Fszt8{
+.fszt8{
     background-color: rgb(188, 105, 105);
 }
-.Fszt7{
+.fszt7{
     background-color: rgb(184, 68, 68);
 }
-.Fszt6{
+.fszt6{
     background-color: rgb(185, 48, 48);
 }
-.Fszt5{
+.fszt5{
     background-color: rgb(182, 28, 28);
 }
-.Fszt4{
+.fszt4{
     background-color: rgb(107, 94, 176);
 }
-.Fszt3{
+.fszt3{
     background-color: rgb(89, 70, 187);
 }
-.Fszt2{
+.fszt2{
     background-color: rgb(61, 36, 185);
 }
-.Fszt1{
+.fszt1{
     background-color: rgb(33, 0, 201);
 }
 
-.Em1{
+.em1{
     background-color: rgb(167, 114, 167);
 }
-.Em2{
+.em2{
     background-color: rgb(128, 70, 128);
 }
-.Em3{
+.em3{
     background-color: rgb(132, 35, 132);
 }
-.Em4{
+.em4{
     background-color: rgb(131, 0, 131);
 }
 
-.Em5{
+.em5{
     background-color: rgb(116, 167, 114);
 }
-.Em6{
+.em6{
     background-color: rgb(92, 166, 89);
 }
-.Em7{
+.em7{
     background-color: rgb(49, 161, 45);;
 }
-.Em8{
+.em8{
     background-color: rgb(5, 163, 0);;
 }
 
-.F1{
+.f1{
     background-color: rgb(177, 156, 0);
 }
-.F2{
+.f2{
     background-color: rgb(181, 168, 67);
 }
-.F3{
+.f3{
     background-color: rgb(144, 127, 0);
 }
-.F4{
+.f4{
     background-color: rgb(89, 79, 0);
 }
 
