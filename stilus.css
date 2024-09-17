@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+main{
+    display: grid;
+    grid-template-areas:"h"
+                        "n"
+                        "k"
+                        "f";
+    
+}
+
 h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
@@ -15,6 +24,14 @@ footer p{
     font-family:'Times New Roman', Times, serif;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+header{
+    grid-area:h;
+}
+
+footer{
+    grid-area:f;
 }
 
 .foglalo-wrapper {
@@ -164,6 +181,8 @@ aside{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     padding: 5px;
+    grid-area:n;
+    
 }
 nav{
     margin: 5px;
@@ -180,4 +199,18 @@ nav{
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    grid-area:k;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    main{
+        display: grid;
+        grid-template-areas:"h"
+                            "n"
+                            "k"
+                            "f";
+    }
 }
